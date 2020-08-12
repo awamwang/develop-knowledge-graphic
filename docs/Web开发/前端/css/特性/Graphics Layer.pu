@@ -1,0 +1,20 @@
+@startmindmap Graphics Layer
+* Graphics Layer
+++ 概念
+
+++ 用途
++++ 产生Graphics Layer来应用动画加速
++++ 避免产生多余的Graphics Layer层
+
+++ 产生方法
++++ 硬件加速的 iframe 元素（比如 iframe 嵌入的页面中有合成层）
++++ 硬件加速的插件，比如 flash 等等
++++ 使用加速视频解码的元素
++++ 3D 或者 硬件加速的 2D Canvas 元素
++++ 3D 或透视变换(perspective、transform) 的 CSS 属性
++++ 对自己的 opacity 做 CSS 动画或使用一个动画变换的元素
++++ 拥有加速 CSS 过滤器的元素
++++ （注意）元素有一个包含复合层的后代节点(换句话说，就是一个元素拥有一个子元素，该子元素在自己的层里)
++++ （注意）元素有一个 z-index 较低且包含一个复合层的兄弟元素
+
+@endmindmap

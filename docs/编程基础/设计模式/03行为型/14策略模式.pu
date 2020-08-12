@@ -1,0 +1,23 @@
+@startuml 策略模式
+skinparam classAttributeIconSize 0
+
+class Context {
+  strategy: Strategy
+  operation(): void
+}
+note as N1
+strategy.operation()
+end note
+interface Strategy {
+  operation(): void
+}
+class ConcreteStrategy1 implements Strategy {
+  operation(): void
+}
+class ConcreteStrategy2 implements Strategy {
+  operation(): void
+}
+
+Context .> N1
+Context *-- Strategy
+@enduml

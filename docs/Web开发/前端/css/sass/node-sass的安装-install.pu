@@ -1,0 +1,36 @@
+@startuml node-sass install
+(*) --> script/install.js checkAndDownloadBinary
+if "SKIP_SASS_BINARY_DOWNLOAD_FOR_CI" then
+  -->[true] (*)
+else
+  --> [false] if "has Binary" then
+    note left
+      1. --sass-binary-path
+      2. process.env.SASS_BINARY_PATH
+      3. process.env.npm_config_sass_binary_path
+      4. pkg.nodeSassConfig.binaryPath
+    endnote
+    -->[true] (*)
+  else
+    -->[false] if "cachedBinary" then
+      note left
+        process.env.npm_config_sass_binary_cache
+        process.env.npm_config_cache
+      endnote
+      -->[true] copy to binaryPath 
+      --> (*)
+    else
+      partition Download {
+        --> download
+          if "res" then
+            -->[error] reportError
+          else
+            -->[not successful] reportError
+          else
+            -->[successful] save binary
+            -->cache binary
+            --> (*)
+          endif
+      }
+
+@enduml

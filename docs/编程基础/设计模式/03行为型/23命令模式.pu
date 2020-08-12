@@ -1,0 +1,41 @@
+@startuml 命令模式
+skinparam classAttributeIconSize 0
+
+class Invoker {
+  - command: Command
+  + setCommand(command: Command)
+  + call(): void
+}
+
+interface Command {
+  + execute()
+}
+class ConcretCommand1 implements Command {
+  - receiver: ReceiverA
+  + execute()
+}
+class ConcretCommand2 implements Command {
+  - receiver: ReceiverB
+  + execute(): void
+}
+class ReceiverA {
+  + action(): void
+}
+class ReceiverB {
+  + action(): void
+}
+
+note as N1
+command.execute()
+end note
+note as N2
+receiver.action()
+end note
+
+Invoker .> N1
+Invoker o-- Command
+ConcretCommand1 -> N2
+ConcretCommand1 <-- ReceiverA
+ConcretCommand2 <-- ReceiverB
+
+@enduml

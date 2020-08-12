@@ -1,0 +1,63 @@
+@startmindmap font-family
+* font-family
+++ seril(衬线)
++++ 宋体(SimSun)
+++++_ 中文
++++ Times New Roman
+++++_ 西文
+
+++ sans-seril(无衬线)
++++ 黑体
+++++_ 中文
++++ 微软雅黑
+++++_ 中文、Windows
++++ 华文黑体、华文细黑
+++++_ 中文、Mac
+++++_ 旧苹果默认
++++ 黑体-简（Heiti SC）
+++++_ 中文、Mac
+++++_ 新苹果默认
++++ 冬青黑体（Hiragino Sans GB）
+++++_ 中文、Mac
+++++_ 苹果丽黑，小字清晰
++++ Helvetica、Helvetica Neue
+++++_ 西文、Mac
++++ Arial
+++++_ 西文、Windows
++++ Verdana
+++++_ 西文
+++++_ 小字清晰
++++ Tahoma
+++++_ 西文
+++++_ 字元间距较小，Unicode支持范围大
+
+++ monospace(等宽、代码字体)
++++ Consolas
+++++_ 西文
+++++_ ClearType字型平滑技术，带斜线的0
+
+++ fantasy(梦幻)
+
+++ cuisive(草体)
+
+++ system-ui(系统默认字体)
++++ 优点
+++++_ 与当前操作系统使用的字体相匹配
+++++_ 可以提高性能
++++ San Francisco Fonts(iOS9)
++++ -apple-system/BlinkMacSystemFont(macOS 和 iOS 上)
++++ Segoe UI
+++++_ 西文、Windows、无衬线
++++ Roboto
+++++_ 西文、Android、无衬线
+
+++ emoji(用于兼容 emoji 表情符号字符)
+++ math(适用于数学表达式)
+++ fangsong(中文的（仿宋）字体)
+
+++ 字体选择建议
++++_ 尽量使用系统默认字体
++++_ 兼顾中西，西文在前，中文在后
++++_ 兼顾多操作系统
++++_ 兼顾旧操作系统，以字体族系列 serif 和 sans-serif 结尾
+@endmindmap

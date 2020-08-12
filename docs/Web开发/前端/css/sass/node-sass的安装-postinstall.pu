@@ -1,0 +1,29 @@
+@startuml node-sass postinstall
+(*) --> script/build.js testBinary
+if "options.force || SASS_FORCE_BUILD(force build)" then
+  -->[true] "build"
+else
+  --> [false] if "has Binary" then
+    note left
+      1. --sass-binary-path
+      2. process.env.SASS_BINARY_PATH
+      3. process.env.npm_config_sass_binary_path
+      4. pkg.nodeSassConfig.binaryPath
+    endnote
+    -->[true] "test Binary"
+      if "Binary is fine" then
+        -->[true] (*)
+      else
+        -->[false] "build"
+      endif
+  else
+    -->[false] build
+      if "errorCode" then
+        -->[errorCode==127] node-gyp not found!
+      else
+        -->[errorCode==other] Build failed
+      else
+        -->[!errorCode] afterBuild
+        --> (*)
+
+@enduml

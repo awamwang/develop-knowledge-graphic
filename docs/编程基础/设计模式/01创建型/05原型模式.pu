@@ -1,0 +1,10 @@
+@startuml 原型模式
+skinparam classAttributeIconSize 0
+
+interface Cloneable {
+  +clone(): Cloneable
+}
+class ConcreteCloneable implements Cloneable {
+  +clone(): ConcreteCloneable
+}
+@enduml

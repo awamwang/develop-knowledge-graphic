@@ -1,0 +1,38 @@
+@startuml 建造者模式
+skinparam classAttributeIconSize 0
+
+class Director {
+  -builder: Builder
+  #Director(builder: Builder)
+  +build(): Product
+}
+together {
+  ' class ConcreteProduct1 implements Product {}
+  ' class ConcreteProduct2 implements Product {}
+}
+together {
+  interface Product {
+    -partA
+    -partB
+    -partC
+    +setPartA(partA): void
+    +setPartB(partB): void
+    +setPartC(partC): void
+    +show()
+  }
+  abstract class Builder {
+    +{abstract} buildPartA(partA): void
+    +{abstract} buildPartB(partB): void
+    +{abstract} buildPartC(partC): void
+    +getResult(): Product
+  }
+  class ConcreteBuilder1 extends Builder {}
+  class ConcreteBuilder2 extends Builder {}
+}
+Director .> Product
+Director .> Builder
+Product <.. Builder
+' ConcreteBuilder1 --> ConcreteProduct1
+' ConcreteBuilder2 --> ConcreteProduct2
+
+@enduml 

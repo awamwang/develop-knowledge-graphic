@@ -1,0 +1,36 @@
+@startuml 装饰模式
+skinparam classAttributeIconSize 0
+
+interface Component {
+  + operation()
+}
+class ConcreteComponent implements Component {
+  + operation()
+}
+abstract class Decorator implements Component {
+  - component: Component
+  # Decorator(Component: Component)
+  + operation()
+}
+class ConcreteDecorator1 extends Decorator {
+  # ConcreteDecorator1(Component: Component)
+  addedFunc1()
+  + operation()
+}
+class ConcreteDecorator2 extends Decorator {
+  # ConcreteDecorator2(Component: Component)
+  addedFunc2()
+  + operation()
+}
+
+note as N1
+operation() {
+  super.operation()
+  addedFuncX()
+}
+end note
+
+ConcreteDecorator1 <-- N1
+ConcreteDecorator2 <-- N1
+
+@enduml

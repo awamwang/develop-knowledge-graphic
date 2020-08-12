@@ -1,0 +1,48 @@
+@startuml onenight-werewolf-core
+skinparam classAttributeIconSize 0
+
+class Game {
+  -statusManager: StatusManager
+  -playerManager: PlayerManager
+  -roleManager: RoleManager
+}
+class StatusManager {
+  next()
+}
+class RoleManager {
+  +name: string
+
+  getDefaultRoleList()
+  setRoleList()
+  getRoleList()
+
+  operate()
+}
+class PlayerManager {
+  +count: number
+  next()
+}
+class Player {
+  +name: string
+  +order: number
+}
+
+interface Loggable {
+  // 需要记录什么阶段、什么P/R、做了什么
+}
+
+Loggable <.. Game
+Game *--> StatusManager
+Game *--> PlayerManager
+PlayerManager "1" o-- "many" Player
+Player *-- Role
+note left on link: has a
+Game *--> RoleManager
+RoleManager "1" o-- "many" Role
+note right of RoleManager 
+  管理当前Game
+  有哪些Role，分配Role
+end note
+Role -- Operation
+
+@enduml

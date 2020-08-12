@@ -1,0 +1,26 @@
+@startuml 工厂方法
+skinparam classAttributeIconSize 0
+
+together {
+  interface Factory {
+    +{static} createProduct(): Product
+  }
+  class ConcreteFactory1 {
+    +{static} createProduct(): ConcreteProduct1
+  }
+  class ConcreteFactory2 {
+    +{static} createProduct(): ConcreteProduct2
+  }
+}
+together {
+  interface Product {}
+  class ConcreteProduct1 {}
+  class ConcreteProduct2 {}
+}
+
+Product <|.. ConcreteProduct1
+Product <|.. ConcreteProduct2
+Factory .> Product
+Factory <|.. ConcreteFactory1
+Factory <|.. ConcreteFactory2
+@enduml

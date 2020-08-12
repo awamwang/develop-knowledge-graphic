@@ -1,0 +1,33 @@
+@startuml 门面模式
+skinparam classAttributeIconSize 0
+
+class Facade {
+  - obj1: SubSystem1
+  - obj2: SubSystem2
+  - obj3: SubSystem3
+  + operation()
+}
+note as N1
+operation() {
+  obj1.operation()
+  obj2.operation()
+  obj3.operation()
+}
+end note
+
+class SubSystem1 {
+  + operation(): void
+}
+class SubSystem2 {
+  + operation(): void
+}
+class SubSystem3 {
+  + operation(): void
+}
+
+Client .> Facade
+Facade .> N1
+Facade <-- SubSystem1
+Facade <-- SubSystem2
+Facade <-- SubSystem3
+@enduml

@@ -1,0 +1,19 @@
+@startuml 代理
+skinparam classAttributeIconSize 0
+
+abstract class Subject {
+
+}
+class ConcreteSubject {
+  + method()
+}
+class Proxy {
+  - subject Subject
+  + method()
+  + otherMethod()
+}
+
+Client -> Proxy
+Proxy --|> Subject
+Subject <|-- ConcreteSubject
+@enduml

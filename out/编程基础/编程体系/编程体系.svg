@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1305px" preserveAspectRatio="none" style="width:464px;height:1305px;" version="1.1" viewBox="0 0 464 1305" width="464px" zoomAndPan="magnify"><defs><filter height="300%" id="f1gx23iqnrbmaf" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="10" y="639.2656"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="20" y="662.2607">编程体系</text><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="136" y="132.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="146" y="155.5889">架构模式</text><path d="M86,657.4141 L96,657.4141 C111,657.4141 111,150.7422 126,150.7422 L136,150.7422 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="136" y="188.8906"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="146" y="211.8857">编程范式</text><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="53" x="262" y="20"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="33" x="272" y="42.9951">OOD</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="84" x="368" y="42.9951">面向过程编程</text><path d="M315,38.1484 L325,38.1484 C340,38.1484 340,38.1484 355,38.1484 L365,38.1484 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M212,207.0391 L222,207.0391 C237,207.0391 237,38.1484 252,38.1484 L262,38.1484 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="51" x="262" y="76.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="31" x="272" y="99.292">OOP</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="84" x="366" y="99.292">面向对象编程</text><path d="M313,94.4453 L323,94.4453 C338,94.4453 338,94.4453 353,94.4453 L363,94.4453 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M212,207.0391 L222,207.0391 C237,207.0391 237,94.4453 252,94.4453 L262,94.4453 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="49" x="262" y="132.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="29" x="272" y="155.5889">AOP</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="84" x="364" y="155.5889">面向切面编程</text><path d="M311,150.7422 L321,150.7422 C336,150.7422 336,150.7422 351,150.7422 L361,150.7422 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M212,207.0391 L222,207.0391 C237,207.0391 237,150.7422 252,150.7422 L262,150.7422 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="104" x="262" y="188.8906"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="84" x="272" y="211.8857">面向接口编程</text><path d="M212,207.0391 L222,207.0391 C237,207.0391 237,207.0391 252,207.0391 L262,207.0391 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="62" x="262" y="245.1875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="272" y="268.1826">命令式</text><path d="M212,207.0391 L222,207.0391 C237,207.0391 237,263.3359 252,263.3359 L262,263.3359 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="62" x="262" y="301.4844"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="272" y="324.4795">声明式</text><path d="M212,207.0391 L222,207.0391 C237,207.0391 237,319.6328 252,319.6328 L262,319.6328 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="62" x="262" y="357.7813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="272" y="380.7764">响应式</text><path d="M212,207.0391 L222,207.0391 C237,207.0391 237,375.9297 252,375.9297 L262,375.9297 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M86,657.4141 L96,657.4141 C111,657.4141 111,207.0391 126,207.0391 L136,207.0391 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="136" y="582.9688"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="146" y="605.9639">设计原则</text><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="262" y="414.0781"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="272" y="437.0732">开闭原则</text><path d="M212,601.1172 L222,601.1172 C237,601.1172 237,432.2266 252,432.2266 L262,432.2266 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="109" x="262" y="470.375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="89" x="272" y="493.3701">单一职责-SRP</text><path d="M212,601.1172 L222,601.1172 C237,601.1172 237,488.5234 252,488.5234 L262,488.5234 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="90" x="262" y="526.6719"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="272" y="549.667">迪米特法则</text><path d="M212,601.1172 L222,601.1172 C237,601.1172 237,544.8203 252,544.8203 L262,544.8203 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="104" x="262" y="582.9688"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="84" x="272" y="605.9639">里氏替换原则</text><path d="M212,601.1172 L222,601.1172 C237,601.1172 237,601.1172 252,601.1172 L262,601.1172 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="109" x="262" y="639.2656"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="89" x="272" y="662.2607">依赖倒置原则-</text><path d="M212,601.1172 L222,601.1172 C237,601.1172 237,657.4141 252,657.4141 L262,657.4141 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="102" x="262" y="695.5625"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="82" x="272" y="718.5576">接口隔离-ISP</text><path d="M212,601.1172 L222,601.1172 C237,601.1172 237,713.7109 252,713.7109 L262,713.7109 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="142" x="262" y="751.8594"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="122" x="272" y="774.8545">[其他]组合优于继承</text><path d="M212,601.1172 L222,601.1172 C237,601.1172 237,770.0078 252,770.0078 L262,770.0078 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M86,657.4141 L96,657.4141 C111,657.4141 111,601.1172 126,601.1172 L136,601.1172 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="136" y="836.3047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="146" y="859.2998">设计模式</text><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="146" x="262" y="808.1563"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="126" x="272" y="831.1514">设计模式的代码实现</text><path d="M212,854.4531 L222,854.4531 C237,854.4531 237,826.3047 252,826.3047 L262,826.3047 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="146" x="262" y="864.4531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="126" x="272" y="887.4482">设计模式的原生实现</text><path d="M212,854.4531 L222,854.4531 C237,854.4531 237,882.6016 252,882.6016 L262,882.6016 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M86,657.4141 L96,657.4141 C111,657.4141 111,854.4531 126,854.4531 L136,854.4531 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="48" x="136" y="1005.1953"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="146" y="1028.1904">？？</text><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="95" x="234" y="920.75"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="75" x="244" y="943.7451">依赖注入-DI</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="382" y="934.5967">设值注入</text><path d="M329,938.8984 L339,938.8984 C354,938.8984 354,929.75 369,929.75 L379,929.75 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="382" y="952.8936">构造注入</text><path d="M329,938.8984 L339,938.8984 C354,938.8984 354,948.0469 369,948.0469 L379,948.0469 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M184,1023.3438 L194,1023.3438 C209,1023.3438 209,938.8984 224,938.8984 L234,938.8984 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="234" y="977.0469"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="244" y="1000.042">控制反转</text><path d="M184,1023.3438 L194,1023.3438 C209,1023.3438 209,995.1953 224,995.1953 L234,995.1953 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="234" y="1033.3438"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="244" y="1056.3389">反射机制</text><path d="M184,1023.3438 L194,1023.3438 C209,1023.3438 209,1051.4922 224,1051.4922 L234,1051.4922 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="234" y="1089.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="244" y="1112.6357">包装对象</text><path d="M184,1023.3438 L194,1023.3438 C209,1023.3438 209,1107.7891 224,1107.7891 L234,1107.7891 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M86,657.4141 L96,657.4141 C111,657.4141 111,1023.3438 126,1023.3438 L136,1023.3438 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="48" x="136" y="1061.4922"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="146" y="1084.4873">算法</text><path d="M86,657.4141 L96,657.4141 C111,657.4141 111,1079.6406 126,1079.6406 L136,1079.6406 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="136" y="1202.2344"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="146" y="1225.2295">编码技巧</text><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="48" x="262" y="1145.9375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="272" y="1168.9326">递归</text><path d="M212,1220.3828 L222,1220.3828 C237,1220.3828 237,1164.0859 252,1164.0859 L262,1164.0859 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="48" x="262" y="1202.2344"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="272" y="1225.2295">分治</text><path d="M212,1220.3828 L222,1220.3828 C237,1220.3828 237,1220.3828 252,1220.3828 L262,1220.3828 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1gx23iqnrbmaf)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="262" y="1258.5313"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="272" y="1281.5264">动态规划</text><path d="M212,1220.3828 L222,1220.3828 C237,1220.3828 237,1276.6797 252,1276.6797 L262,1276.6797 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M86,657.4141 L96,657.4141 C111,657.4141 111,1220.3828 126,1220.3828 L136,1220.3828 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[2292a9832125ab8b3912ff30c5b92f66]
+@startmindmap 编程体系
+* 编程体系
+
+++ 架构模式
+
+++ 编程范式
++++ OOD
+++++_ 面向过程编程
++++ OOP
+++++_ 面向对象编程
++++ AOP
+++++_ 面向切面编程
+' 通过预编译方式和运行期间动态代理实现程序功能的统一维护的一种技术
+' 这种在运行时，动态地将代码切入到类的指定方法、指定位置上的编程思想就是面向切面的编程
++++ 面向接口编程
++++ 命令式
++++ 声明式
++++ 响应式
+' +++ 函数式
+
+++ 设计原则
++++ 开闭原则
++++ 单一职责-SRP
++++ 迪米特法则
++++ 里氏替换原则
++++ 依赖倒置原则-
++++ 接口隔离-ISP
++++ [其他]组合优于继承
+
+++ 设计模式
++++ 设计模式的代码实现
++++ 设计模式的原生实现
+
+++ ？？
++++ 依赖注入-DI
+++++_ 设值注入
+++++_ 构造注入
++++ 控制反转
++++ 反射机制
++++ 包装对象
+
+++ 算法
+
+++ 编码技巧
++++ 递归
++++ 分治
++++ 动态规划
+
+@endmindmap
+
+@startmindmap 编程体系
+* 编程体系
+
+++ 架构模式
+
+++ 编程范式
++++ OOD
+++++_ 面向过程编程
++++ OOP
+++++_ 面向对象编程
++++ AOP
+++++_ 面向切面编程
++++ 面向接口编程
++++ 命令式
++++ 声明式
++++ 响应式
+
+++ 设计原则
++++ 开闭原则
++++ 单一职责-SRP
++++ 迪米特法则
++++ 里氏替换原则
++++ 依赖倒置原则-
++++ 接口隔离-ISP
++++ [其他]组合优于继承
+
+++ 设计模式
++++ 设计模式的代码实现
++++ 设计模式的原生实现
+
+++ ？？
++++ 依赖注入-DI
+++++_ 设值注入
+++++_ 构造注入
++++ 控制反转
++++ 反射机制
++++ 包装对象
+
+++ 算法
+
+++ 编码技巧
++++ 递归
++++ 分治
++++ 动态规划
+
+@endmindmap
+
+PlantUML version 1.2020.12(Sat Jun 06 10:54:15 UTC 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

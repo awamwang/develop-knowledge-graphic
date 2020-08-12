@@ -1,0 +1,23 @@
+@startuml 观察者
+skinparam classAttributeIconSize 0
+
+interface Observer {
+  + update(): void
+}
+class ConcreteObserver1 implements Observer {}
+class ConcreteObserver2 implements Observer {}
+
+interface Obeservable {
+  + attach(observer: Observer): void
+  + dettach(observer: Observer): void
+  + notify()
+}
+class ConcreteObservable1 implements Obeservable {}
+class ConcreteObservable2 implements Obeservable {}
+note as N1
+observers.every(update)
+end note
+
+Observer -o Obeservable
+Obeservable <. N1
+@enduml

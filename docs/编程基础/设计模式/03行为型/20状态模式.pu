@@ -1,0 +1,19 @@
+@startuml 状态模式
+skinparam classAttributeIconSize 0
+
+interface State {
+  + handle(Context context): void
+}
+class ConcreteState1 implements State {
+  + handle(Context context): void
+}
+class ConcreteState2 implements State {
+  + handle(Context context): void
+}
+class Context {
+  - state: State
+  + handle() { state.handle(this) }
+}
+
+State <. Context
+@enduml

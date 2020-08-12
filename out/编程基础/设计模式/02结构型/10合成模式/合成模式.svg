@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="389px" preserveAspectRatio="none" style="width:382px;height:389px;" version="1.1" viewBox="0 0 382 389" width="382px" zoomAndPan="magnify"><defs><filter height="300%" id="f8o1ha1k2kok8" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[4e13963c9dc916a21a8436ef39422b32]
+class Component--><rect fill="#FEFECE" filter="url(#f8o1ha1k2kok8)" height="86.4141" id="Component" style="stroke: #A80036; stroke-width: 1.5;" width="200" x="163" y="6"/><ellipse cx="222.75" cy="22" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M218.6719,17.7656 L218.6719,15.6094 L226.0625,15.6094 L226.0625,17.7656 L223.5938,17.7656 L223.5938,25.8438 L226.0625,25.8438 L226.0625,28 L218.6719,28 L218.6719,25.8438 L221.1406,25.8438 L221.1406,17.7656 L218.6719,17.7656 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="72" x="243.25" y="26.1543">Component</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="164" x2="362" y1="38" y2="38"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="164" x2="362" y1="46" y2="46"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="166" x="169" y="60.2104">+add(com: Component): void</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="188" x="169" y="73.0151">+remove(com: Component): void</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="102" x="169" y="85.8198">+operation(): void</text><!--MD5=[3670a9b67b8a752f6e42da25dea7e2da]
+class Leaf--><rect fill="#FEFECE" filter="url(#f8o1ha1k2kok8)" height="60.8047" id="Leaf" style="stroke: #A80036; stroke-width: 1.5;" width="114" x="6" y="184"/><ellipse cx="46.2" cy="200" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M49.1688,205.6406 Q48.5906,205.9375 47.95,206.0781 Q47.3094,206.2344 46.6063,206.2344 Q44.1063,206.2344 42.7781,204.5938 Q41.4656,202.9375 41.4656,199.8125 Q41.4656,196.6875 42.7781,195.0313 Q44.1063,193.375 46.6063,193.375 Q47.3094,193.375 47.95,193.5313 Q48.6063,193.6875 49.1688,193.9844 L49.1688,196.7031 Q48.5438,196.125 47.95,195.8594 Q47.3563,195.5781 46.7313,195.5781 Q45.3875,195.5781 44.7,196.6563 Q44.0125,197.7188 44.0125,199.8125 Q44.0125,201.9063 44.7,202.9844 Q45.3875,204.0469 46.7313,204.0469 Q47.3563,204.0469 47.95,203.7813 Q48.5438,203.5 49.1688,202.9219 L49.1688,205.6406 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="26" x="65.8" y="204.1543">Leaf</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="119" y1="216" y2="216"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="119" y1="224" y2="224"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="102" x="12" y="238.2104">+operation(): void</text><!--MD5=[73d251a377f173325f21997c77c25ad9]
+class Composite--><rect fill="#FEFECE" filter="url(#f8o1ha1k2kok8)" height="124.8281" id="Composite" style="stroke: #A80036; stroke-width: 1.5;" width="216" x="155" y="152"/><ellipse cx="225.75" cy="168" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M228.7188,173.6406 Q228.1406,173.9375 227.5,174.0781 Q226.8594,174.2344 226.1563,174.2344 Q223.6563,174.2344 222.3281,172.5938 Q221.0156,170.9375 221.0156,167.8125 Q221.0156,164.6875 222.3281,163.0313 Q223.6563,161.375 226.1563,161.375 Q226.8594,161.375 227.5,161.5313 Q228.1563,161.6875 228.7188,161.9844 L228.7188,164.7031 Q228.0938,164.125 227.5,163.8594 Q226.9063,163.5781 226.2813,163.5781 Q224.9375,163.5781 224.25,164.6563 Q223.5625,165.7188 223.5625,167.8125 Q223.5625,169.9063 224.25,170.9844 Q224.9375,172.0469 226.2813,172.0469 Q226.9063,172.0469 227.5,171.7813 Q228.0938,171.5 228.7188,170.9219 L228.7188,173.6406 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="66" x="246.25" y="172.1543">Composite</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="156" x2="370" y1="184" y2="184"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="102" x="161" y="198.2104">-list: Component[]</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="156" x2="370" y1="204.8047" y2="204.8047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="166" x="161" y="219.0151">+add(com: Component): void</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="188" x="161" y="231.8198">+remove(com: Component): void</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="204" x="161" y="244.6245">+getChild(idx: number): Component</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="0" x="165" y="257.4292"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="102" x="161" y="270.2339">+operation(): void</text><path d="M193,337 L193,377.2656 A0,0 0 0 0 193,377.2656 L333,377.2656 A0,0 0 0 0 333,377.2656 L333,347 L323,337 L267,337 L263,277.0026 L259,337 L193,337 A0,0 0 0 0 193,337 " fill="#FBFB77" filter="url(#f8o1ha1k2kok8)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M323,337 L323,347 L333,347 L323,337 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="86" x="199" y="354.0669">for com in list</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="103" x="207" y="369.1997">com.operation()</text><!--MD5=[2b8a550542006e17ac803e491d55f4e4]
+reverse link Component to Leaf--><path d="M195.156,104.7888 C176.6058,120.074 156.514,136.6583 138,152 C125.4712,162.382 111.7922,173.7666 99.5874,183.9418 " fill="none" id="Component&lt;-Leaf" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="none" points="190.7548,99.3451,210.6432,92.0338,199.6551,110.1518,190.7548,99.3451" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d08e8c878fbc40ecc1404728b0bb96b1]
+reverse link Component to Composite--><path d="M250.5693,112.2711 C250.1381,125.2008 250.1436,138.8032 250.5858,151.7158 " fill="none" id="Component&lt;-Composite" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="none" points="243.5927,111.6468,251.6556,92.0511,257.5725,112.3979,243.5927,111.6468" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d08e8c878fbc40ecc1404728b0bb96b1]
+reverse link Component to Composite--><path d="M275.8691,105.3349 C276.6054,120.2617 276.6972,136.4696 276.1445,151.7158 " fill="none" id="Component&lt;-Composite-1" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="275.0117,92.0511,271.4066,98.2963,275.7848,104.0262,279.39,97.7809,275.0117,92.0511" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="268.3386" y="112.4672">n</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="269.1447" y="141.112">1</text><!--MD5=[e41347b06e955f8fec83d4e207f27959]
+@startuml 合成模式
+skinparam classAttributeIconSize 0
+
+interface Component {
+  + add(com: Component): void
+  + remove(com: Component): void
+  + operation(): void
+}
+class Leaf {
+  ' + add(com: Component): void
+  ' + remove(com: Component): void
+
+  + operation(): void
+}
+class Composite {
+  - list: Component[]
+
+  + add(com: Component): void
+  + remove(com: Component): void
+  + getChild(idx: number): Component
+
+  + operation(): void
+}
+note as N1
+  for com in list
+    com.operation()  
+end note
+
+Component <|.. Leaf
+Component <|.. Composite
+Component "n" o- - "1" Composite
+Composite <- - N1
+
+@enduml
+
+@startuml 合成模式
+skinparam classAttributeIconSize 0
+
+interface Component {
+  + add(com: Component): void
+  + remove(com: Component): void
+  + operation(): void
+}
+class Leaf {
+
+  + operation(): void
+}
+class Composite {
+  - list: Component[]
+
+  + add(com: Component): void
+  + remove(com: Component): void
+  + getChild(idx: number): Component
+
+  + operation(): void
+}
+note as N1
+  for com in list
+    com.operation()  
+end note
+
+Component <|.. Leaf
+Component <|.. Composite
+Component "n" o- - "1" Composite
+Composite <- - N1
+
+@enduml
+
+PlantUML version 1.2020.12(Sat Jun 06 10:54:15 UTC 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

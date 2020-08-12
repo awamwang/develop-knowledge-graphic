@@ -1,0 +1,22 @@
+@startmindmap HTTP中认证、授权
+* main
+
+++ 认证-Authentication
++++ 证明“你是你自己”
++++ 实现方式
+++++_ 用户名密码
+++++_ 专属登录链接
+++++_ 验证码
+
+++ 授权-Authorization
++++ 授予权限访问某些资源
++++ 实现方式
+++++_ Cookie
+++++_ session
+++++_ token
+++++_ OAuth
+
+++ 凭证-Credentials
++++ 进行认证、授权的一种手段、媒介（例如身份证）
+
+@endmindmap

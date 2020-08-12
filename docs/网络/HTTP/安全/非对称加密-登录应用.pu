@@ -1,0 +1,12 @@
+@startuml 非对称加密
+actor client as C
+entity "user agent" as A
+entity server as S
+
+hnote over S: 保存server的私钥
+hnote over A: 保存server的公钥
+C -> A: 输入用户名密码
+hnote over A: 使用公钥加密
+A -> S: 传输请求
+hnote over S: 私钥解密数据
+@enduml

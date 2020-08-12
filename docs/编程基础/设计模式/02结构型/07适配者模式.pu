@@ -1,0 +1,18 @@
+@startuml 适配者模式
+skinparam classAttributeIconSize 0
+
+interface Target {
+
+}
+class Adapter {
+  - adaptee
+  + request() \n  adaptee.specialRequest
+}
+class Adaptee {
+  + specialRequest()
+}
+
+Client -> Target
+Target <|.. Adapter
+Adaptee <-- Adapter
+@enduml

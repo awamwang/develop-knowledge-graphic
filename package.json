@@ -1,0 +1,27 @@
+{
+  "name": "develop-knowledge-graphic",
+  "version": "1.0.0",
+  "description": "通过思维导图、UML图等图形形式，总结一些有用的开发知识",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keepgoingwm/develop-knowledge-graphic.git"
+  },
+  "keywords": [
+    "develop",
+    "knowledge",
+    "graphic"
+  ],
+  "bugs": {
+    "url": "https://github.com/keepgoingwm/develop-knowledge-graphic/issues"
+  },
+  "homepage": "https://github.com/keepgoingwm/develop-knowledge-graphic#readme"
+}

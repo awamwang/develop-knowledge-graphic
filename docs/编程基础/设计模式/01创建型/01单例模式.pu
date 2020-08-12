@@ -1,0 +1,9 @@
+@startuml 单例模式
+skinparam classAttributeIconSize 0
+
+class Singleton {
+  -instance: Singleton
+  +getInstance(): Singleton
+  #Singleton()
+}
+@enduml

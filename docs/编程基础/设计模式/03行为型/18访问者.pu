@@ -1,0 +1,35 @@
+@startuml 访问者
+skinparam classAttributeIconSize 0
+
+interface Visitor {
+  + visit(element: ConcreteElement1): void
+  + visit(element: ConcreteElement2): void
+}
+class ConcreteVisitor1 implements Visitor {
+  + visit(element: ConcreteElement1): void
+  + visit(element: ConcreteElement2): void
+}
+class ConcreteVisitor2 implements Visitor {
+  + visit(element: ConcreteElement1): void
+  + visit(element: ConcreteElement2): void
+}
+interface Element {
+  + accept(visitor: Visitor): void \n    visitor.visit()
+}
+class ConcreteElement1 implements Element {
+  + accept(visitor: Visitor): void
+}
+class ConcreteElement2 implements Element {
+  + accept(visitor: Visitor): void
+}
+class ObjectStructure {
+  - list: Element[]
+  + add()
+  + remove()
+  + accept(visitor: Visitor): void
+}
+
+Visitor <. Element
+Element -o ObjectStructure
+
+@enduml

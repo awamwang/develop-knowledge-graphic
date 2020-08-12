@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="422px" preserveAspectRatio="none" style="width:516px;height:422px;" version="1.1" viewBox="0 0 516 422" width="516px" zoomAndPan="magnify"><defs><filter height="300%" id="f18jg94al3b1v8" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[40e763e78852df0d82d601e8ce502183]
+entity ##4930--><!--MD5=[72136138052d025cffdce3c22fbd185f]
+class Product--><rect fill="#FEFECE" filter="url(#f18jg94al3b1v8)" height="137.6328" id="Product" style="stroke: #A80036; stroke-width: 1.5;" width="140" x="202.5" y="6"/><ellipse cx="244.05" cy="22" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M239.9719,17.7656 L239.9719,15.6094 L247.3625,15.6094 L247.3625,17.7656 L244.8938,17.7656 L244.8938,25.8438 L247.3625,25.8438 L247.3625,28 L239.9719,28 L239.9719,25.8438 L242.4406,25.8438 L242.4406,17.7656 L239.9719,17.7656 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="263.95" y="26.1543">Product</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="203.5" x2="341.5" y1="38" y2="38"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="34" x="208.5" y="52.2104">-partA</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="35" x="208.5" y="65.0151">-partB</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="35" x="208.5" y="77.8198">-partC</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="203.5" x2="341.5" y1="84.4141" y2="84.4141"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="126" x="208.5" y="98.6245">+setPartA(partA): void</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="128" x="208.5" y="111.4292">+setPartB(partB): void</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="128" x="208.5" y="124.2339">+setPartC(partC): void</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="47" x="208.5" y="137.0386">+show()</text><!--MD5=[a8dc8aefce085dae70bec15e302cfec9]
+class Builder--><rect fill="#FEFECE" filter="url(#f18jg94al3b1v8)" height="99.2188" id="Builder" style="stroke: #A80036; stroke-width: 1.5;" width="149" x="194" y="204"/><ellipse cx="242.75" cy="220" fill="#A9DCDF" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M242.8594,215.3438 L241.7031,220.4219 L244.0313,220.4219 L242.8594,215.3438 Z M241.375,213.1094 L244.3594,213.1094 L247.7188,225.5 L245.2656,225.5 L244.5,222.4375 L241.2188,222.4375 L240.4688,225.5 L238.0313,225.5 L241.375,213.1094 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="43" x="263.25" y="224.1543">Builder</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="195" x2="342" y1="236" y2="236"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="195" x2="342" y1="244" y2="244"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="135" x="200" y="258.2104">+buildPartA(partA): void</text><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="137" x="200" y="271.0151">+buildPartB(partB): void</text><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="137" x="200" y="283.8198">+buildPartC(partC): void</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="121" x="200" y="296.6245">+getResult(): Product</text><!--MD5=[85fa41478d080d6079ace2c1a9cb0308]
+class ConcreteBuilder1--><rect fill="#FEFECE" filter="url(#f18jg94al3b1v8)" height="48" id="ConcreteBuilder1" style="stroke: #A80036; stroke-width: 1.5;" width="140" x="190.5" y="363"/><ellipse cx="205.5" cy="379" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M208.4688,384.6406 Q207.8906,384.9375 207.25,385.0781 Q206.6094,385.2344 205.9063,385.2344 Q203.4063,385.2344 202.0781,383.5938 Q200.7656,381.9375 200.7656,378.8125 Q200.7656,375.6875 202.0781,374.0313 Q203.4063,372.375 205.9063,372.375 Q206.6094,372.375 207.25,372.5313 Q207.9063,372.6875 208.4688,372.9844 L208.4688,375.7031 Q207.8438,375.125 207.25,374.8594 Q206.6563,374.5781 206.0313,374.5781 Q204.6875,374.5781 204,375.6563 Q203.3125,376.7188 203.3125,378.8125 Q203.3125,380.9063 204,381.9844 Q204.6875,383.0469 206.0313,383.0469 Q206.6563,383.0469 207.25,382.7813 Q207.8438,382.5 208.4688,381.9219 L208.4688,384.6406 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="108" x="219.5" y="383.1543">ConcreteBuilder1</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="191.5" x2="329.5" y1="395" y2="395"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="191.5" x2="329.5" y1="403" y2="403"/><!--MD5=[315d5bcb02b2f9a65cde410a9ce0750f]
+class ConcreteBuilder2--><rect fill="#FEFECE" filter="url(#f18jg94al3b1v8)" height="48" id="ConcreteBuilder2" style="stroke: #A80036; stroke-width: 1.5;" width="140" x="365.5" y="363"/><ellipse cx="380.5" cy="379" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M383.4688,384.6406 Q382.8906,384.9375 382.25,385.0781 Q381.6094,385.2344 380.9063,385.2344 Q378.4063,385.2344 377.0781,383.5938 Q375.7656,381.9375 375.7656,378.8125 Q375.7656,375.6875 377.0781,374.0313 Q378.4063,372.375 380.9063,372.375 Q381.6094,372.375 382.25,372.5313 Q382.9063,372.6875 383.4688,372.9844 L383.4688,375.7031 Q382.8438,375.125 382.25,374.8594 Q381.6563,374.5781 381.0313,374.5781 Q379.6875,374.5781 379,375.6563 Q378.3125,376.7188 378.3125,378.8125 Q378.3125,380.9063 379,381.9844 Q379.6875,383.0469 381.0313,383.0469 Q381.6563,383.0469 382.25,382.7813 Q382.8438,382.5 383.4688,381.9219 L383.4688,384.6406 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="108" x="394.5" y="383.1543">ConcreteBuilder2</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="366.5" x2="504.5" y1="395" y2="395"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="366.5" x2="504.5" y1="403" y2="403"/><!--MD5=[57adcbfcd00175f9b7abe25398e7de0c]
+class Director--><rect fill="#FEFECE" filter="url(#f18jg94al3b1v8)" height="86.4141" id="Director" style="stroke: #A80036; stroke-width: 1.5;" width="161" x="6" y="32"/><ellipse cx="57.25" cy="48" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M60.2188,53.6406 Q59.6406,53.9375 59,54.0781 Q58.3594,54.2344 57.6563,54.2344 Q55.1563,54.2344 53.8281,52.5938 Q52.5156,50.9375 52.5156,47.8125 Q52.5156,44.6875 53.8281,43.0313 Q55.1563,41.375 57.6563,41.375 Q58.3594,41.375 59,41.5313 Q59.6563,41.6875 60.2188,41.9844 L60.2188,44.7031 Q59.5938,44.125 59,43.8594 Q58.4063,43.5781 57.7813,43.5781 Q56.4375,43.5781 55.75,44.6563 Q55.0625,45.7188 55.0625,47.8125 Q55.0625,49.9063 55.75,50.9844 Q56.4375,52.0469 57.7813,52.0469 Q58.4063,52.0469 59,51.7813 Q59.5938,51.5 60.2188,50.9219 L60.2188,53.6406 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="50" x="77.75" y="52.1543">Director</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="166" y1="64" y2="64"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="91" x="12" y="78.2104">-builder: Builder</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="166" y1="84.8047" y2="84.8047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="149" x="12" y="99.0151">#Director(builder: Builder)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="95" x="12" y="111.8198">+build(): Product</text><!--MD5=[33d2d9e23560d25fc14134e0c361ad4e]
+reverse link Builder to ConcreteBuilder1--><path d="M264.2967,323.6433 C263.4549,337.69 262.6252,351.5357 261.9572,362.6838 " fill="none" id="Builder&lt;-ConcreteBuilder1" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="257.3372,322.7559,265.5211,303.2105,271.3121,323.5934,257.3372,322.7559" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ba03da65603dcfc50964d8bcf060c9f1]
+reverse link Builder to ConcreteBuilder2--><path d="M346.4316,315.7986 C367.2548,332.4447 388.5419,349.4616 405.082,362.6838 " fill="none" id="Builder&lt;-ConcreteBuilder2" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="341.9357,321.1664,330.6846,303.2105,350.6775,310.231,341.9357,321.1664" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[4bd5ba710ec4d670306720782e728edd]
+link Director to Product--><path d="M167.1484,75 C177.0777,75 187.0069,75 196.9361,75 " fill="none" id="Director-&gt;Product" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="202.1284,75,193.1284,71,197.1284,75,193.1284,79,202.1284,75" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[2760341590ffd2e711ef41992cc437b9]
+link Director to Builder--><path d="M130.5571,118.2099 C155.6248,142.7955 187.237,173.7997 213.8727,199.9232 " fill="none" id="Director-&gt;Builder" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="217.7651,203.7407,214.1404,194.5831,214.1954,200.2397,208.5388,200.2947,217.7651,203.7407" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3a120b5155ebb12ccc0933347f571d2a]
+reverse link Product to Builder--><path d="M270.8378,149.1759 C270.4255,167.574 269.9935,186.8522 269.6146,203.7602 " fill="none" id="Product&lt;-Builder" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="270.9535,144.0128,266.7529,152.9209,270.8415,149.0115,274.7509,153.1001,270.9535,144.0128" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[c7c0b0c6de8ec475217454fcb6e62a32]
+@startuml 建造者模式
+skinparam classAttributeIconSize 0
+
+class Director {
+  -builder: Builder
+  #Director(builder: Builder)
+  +build(): Product
+}
+together {
+  ' class ConcreteProduct1 implements Product {}
+  ' class ConcreteProduct2 implements Product {}
+}
+together {
+  interface Product {
+    -partA
+    -partB
+    -partC
+    +setPartA(partA): void
+    +setPartB(partB): void
+    +setPartC(partC): void
+    +show()
+  }
+  abstract class Builder {
+    +{abstract} buildPartA(partA): void
+    +{abstract} buildPartB(partB): void
+    +{abstract} buildPartC(partC): void
+    +getResult(): Product
+  }
+  class ConcreteBuilder1 extends Builder {}
+  class ConcreteBuilder2 extends Builder {}
+}
+Director .> Product
+Director .> Builder
+Product <.. Builder
+' ConcreteBuilder1 - -> ConcreteProduct1
+' ConcreteBuilder2 - -> ConcreteProduct2
+
+@enduml 
+
+@startuml 建造者模式
+skinparam classAttributeIconSize 0
+
+class Director {
+  -builder: Builder
+  #Director(builder: Builder)
+  +build(): Product
+}
+together {
+}
+together {
+  interface Product {
+    -partA
+    -partB
+    -partC
+    +setPartA(partA): void
+    +setPartB(partB): void
+    +setPartC(partC): void
+    +show()
+  }
+  abstract class Builder {
+    +{abstract} buildPartA(partA): void
+    +{abstract} buildPartB(partB): void
+    +{abstract} buildPartC(partC): void
+    +getResult(): Product
+  }
+  class ConcreteBuilder1 extends Builder {}
+  class ConcreteBuilder2 extends Builder {}
+}
+Director .> Product
+Director .> Builder
+Product <.. Builder
+
+@enduml 
+
+PlantUML version 1.2020.12(Sat Jun 06 10:54:15 UTC 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

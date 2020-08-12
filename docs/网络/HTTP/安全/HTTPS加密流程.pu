@@ -1,0 +1,31 @@
+@startuml HTTPS加密流程
+title HTTPS加密流程
+
+box "Client" #LightBlue
+actor __client__ as C
+entity "__user agent__" as A
+end box
+entity __server__ as S
+
+== 秘钥协商 ==
+C -> A: 访问网站
+A -> S: https请求
+hnote over S: 保存server的私钥**privateA**
+A <-- S: 传输证书
+hnote over A
+  获取、保存证书中保存
+  server的公钥**privateA**
+end hnote
+hnote over A: 生成用于对称加密的私钥B
+hnote over A: 公钥**privateA**加密私钥**B**
+A -> S: 传输加密后的私钥**B**
+hnote over S: 解密、保存私钥**B**
+== 数据传输 ==
+C -> A: 触发加密数据传输
+A -> S: 数据请求
+hnote over S: 私钥**B**加密数据
+A <- S: 数据响应
+hnote over A: 私钥**B**解密数据
+
+
+@enduml

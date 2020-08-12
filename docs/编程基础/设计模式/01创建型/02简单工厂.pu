@@ -1,0 +1,16 @@
+@startuml 简单工厂
+skinparam classAttributeIconSize 0
+
+class Factory {
+  +{static} createProduct(): Product
+}
+together {
+  interface Product {}
+  class ConcreteProduct1 {}
+  class ConcreteProduct2 {}
+}
+
+Product <|.. ConcreteProduct1
+Product <|.. ConcreteProduct2
+Factory -> Product
+@enduml

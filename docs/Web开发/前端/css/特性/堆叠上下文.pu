@@ -1,0 +1,27 @@
+@startmindmap 堆叠上下文
++ 堆叠上下文
+
+++ 堆叠上下文概念
+
+++ 堆叠上下文用途
+*** 单独的布局、z-index排序上下文
+
+++ 堆叠上下文形成
++++ 根元素
++++ z-index不为'auto'并且
+++++ 绝对/相对定位
+++++ 是flex**项目**
++++ 视觉类
+++++ opacity小于1
+++++ mix-blend-mode不为'normal'
+++++ filter不为'none'
+++++ perspective不为'none'
++++ transform不为'none'
++++ position为'fixed'
++++ -webkit-overflow-scrolling为'touch'
++++ 声明为特殊元素
+++++ isolation为'isolate'
+++++ will-change 中指定了任意 CSS 属性(即便你没有直接指定这些属性的值)
+
+
+@endmindmap

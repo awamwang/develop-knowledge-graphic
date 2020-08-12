@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="249px" preserveAspectRatio="none" style="width:518px;height:249px;" version="1.1" viewBox="0 0 518 249" width="518px" zoomAndPan="magnify"><defs><filter height="300%" id="f1ihgorfv9v7zc" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[a83d828be13d333e1fddb3d4d9d97191]
+class Handler--><rect fill="#FEFECE" filter="url(#f1ihgorfv9v7zc)" height="86.4141" id="Handler" style="stroke: #A80036; stroke-width: 1.5;" width="233" x="140" y="6"/><ellipse cx="227.75" cy="22" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M223.6719,17.7656 L223.6719,15.6094 L231.0625,15.6094 L231.0625,17.7656 L228.5938,17.7656 L228.5938,25.8438 L231.0625,25.8438 L231.0625,28 L223.6719,28 L223.6719,25.8438 L226.1406,25.8438 L226.1406,17.7656 L223.6719,17.7656 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49" x="248.25" y="26.1543">Handler</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="141" x2="372" y1="38" y2="38"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="115" x="146" y="52.2104">-successor: Handler</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="141" x2="372" y1="58.8047" y2="58.8047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="221" x="146" y="73.0151">+setSuccessor(handler: Handler): void</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="130" x="146" y="85.8198">+handle(request): void</text><!--MD5=[731fbf0ce9de3ad4d274f9a96dfaccfc]
+class ConcreteHandler1--><rect fill="#FEFECE" filter="url(#f1ihgorfv9v7zc)" height="86.4141" id="ConcreteHandler1" style="stroke: #A80036; stroke-width: 1.5;" width="233" x="6" y="152"/><ellipse cx="61.25" cy="168" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M64.2188,173.6406 Q63.6406,173.9375 63,174.0781 Q62.3594,174.2344 61.6563,174.2344 Q59.1563,174.2344 57.8281,172.5938 Q56.5156,170.9375 56.5156,167.8125 Q56.5156,164.6875 57.8281,163.0313 Q59.1563,161.375 61.6563,161.375 Q62.3594,161.375 63,161.5313 Q63.6563,161.6875 64.2188,161.9844 L64.2188,164.7031 Q63.5938,164.125 63,163.8594 Q62.4063,163.5781 61.7813,163.5781 Q60.4375,163.5781 59.75,164.6563 Q59.0625,165.7188 59.0625,167.8125 Q59.0625,169.9063 59.75,170.9844 Q60.4375,172.0469 61.7813,172.0469 Q62.4063,172.0469 63,171.7813 Q63.5938,171.5 64.2188,170.9219 L64.2188,173.6406 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="114" x="81.75" y="172.1543">ConcreteHandler1</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="238" y1="184" y2="184"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="115" x="12" y="198.2104">-successor: Handler</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="238" y1="204.8047" y2="204.8047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="221" x="12" y="219.0151">+setSuccessor(handler: Handler): void</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="130" x="12" y="231.8198">+handle(request): void</text><!--MD5=[cc11201c13e98b76c77c9f64ba4e446d]
+class ConcreteHandler2--><rect fill="#FEFECE" filter="url(#f1ihgorfv9v7zc)" height="86.4141" id="ConcreteHandler2" style="stroke: #A80036; stroke-width: 1.5;" width="233" x="274" y="152"/><ellipse cx="329.25" cy="168" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M332.2188,173.6406 Q331.6406,173.9375 331,174.0781 Q330.3594,174.2344 329.6563,174.2344 Q327.1563,174.2344 325.8281,172.5938 Q324.5156,170.9375 324.5156,167.8125 Q324.5156,164.6875 325.8281,163.0313 Q327.1563,161.375 329.6563,161.375 Q330.3594,161.375 331,161.5313 Q331.6563,161.6875 332.2188,161.9844 L332.2188,164.7031 Q331.5938,164.125 331,163.8594 Q330.4063,163.5781 329.7813,163.5781 Q328.4375,163.5781 327.75,164.6563 Q327.0625,165.7188 327.0625,167.8125 Q327.0625,169.9063 327.75,170.9844 Q328.4375,172.0469 329.7813,172.0469 Q330.4063,172.0469 331,171.7813 Q331.5938,171.5 332.2188,170.9219 L332.2188,173.6406 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="114" x="349.75" y="172.1543">ConcreteHandler2</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="275" x2="506" y1="184" y2="184"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="115" x="280" y="198.2104">-successor: Handler</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="275" x2="506" y1="204.8047" y2="204.8047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="221" x="280" y="219.0151">+setSuccessor(handler: Handler): void</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="130" x="280" y="231.8198">+handle(request): void</text><!--MD5=[cdda30a9d6c4e0747c2920fa06f202bb]
+reverse link Handler to ConcreteHandler1--><path d="M203.1561,107.1209 C189.4797,122.0222 175.0104,137.7872 162.1605,151.7878 " fill="none" id="Handler&lt;-ConcreteHandler1" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="none" points="198.3395,102.0166,217.0203,92.0152,208.6538,111.4832,198.3395,102.0166" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[c0a8918a19a4d1f31888ebbb9d3c5606]
+reverse link Handler to ConcreteHandler2--><path d="M309.8439,107.1209 C323.5203,122.0222 337.9896,137.7872 350.8395,151.7878 " fill="none" id="Handler&lt;-ConcreteHandler2" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="none" points="304.3462,111.4832,295.9797,92.0152,314.6605,102.0166,304.3462,111.4832" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[17e16451d6562dd672684d61a9b33d95]
+@startuml 职责链
+skinparam classAttributeIconSize 0
+
+interface Handler {
+  - successor: Handler
+  + setSuccessor(handler: Handler): void
+  + handle(request): void
+}
+class ConcreteHandler1 implements Handler {
+  - successor: Handler
+  + setSuccessor(handler: Handler): void
+  + handle(request): void
+}
+class ConcreteHandler2 implements Handler {
+  - successor: Handler
+  + setSuccessor(handler: Handler): void
+  + handle(request): void
+}
+
+
+@enduml
+
+PlantUML version 1.2020.12(Sat Jun 06 10:54:15 UTC 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

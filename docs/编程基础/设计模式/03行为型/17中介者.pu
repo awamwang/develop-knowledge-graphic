@@ -1,0 +1,31 @@
+@startuml 中介者
+skinparam classAttributeIconSize 0
+
+interface Mediator {
+  - list: Colleague[]
+  + register(colleague: Colleague): void
+  + message(from, to): void
+}
+class ConcreteMediator implements Mediator {
+  + register(colleague: Colleague): void
+  + message(from, to): void 
+}
+abstract class Colleague {
+  - mediator: Mediator
+  + setMediator(mediator: Mediator): void
+  + getMediator(): Mediator
+  + {abstract} send(): void
+  + {abstract} receive(): void
+}
+class ConcreteColleague1 extends Colleague {
+  + send(): void
+  + receive(): void
+}
+class ConcreteColleague2 extends Colleague {
+  + send(): void
+  + receive(): void
+}
+
+Mediator o- Colleague
+
+@enduml

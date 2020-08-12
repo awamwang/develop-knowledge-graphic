@@ -1,0 +1,20 @@
+@startuml 迭代器模式
+skinparam classAttributeIconSize 0
+
+interface Iterator {
+  + isDone(): boolean
+  + next()
+}
+class ConcreteIterator implements Iterator {
+}
+interface Aggregate {
+  + getIterator(): Iterator
+}
+class ConcreteAggregate implements Aggregate {
+  + getIterator(): Iterator
+}
+
+
+Aggregate .> Iterator
+
+@enduml

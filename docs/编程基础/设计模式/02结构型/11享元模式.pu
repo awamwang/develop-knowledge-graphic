@@ -1,0 +1,45 @@
+@startuml 享元模式
+skinparam classAttributeIconSize 0
+
+class FlyWeightFactory {
+  -flyWeightList: FlyWeight[]
+  + getFlyWeight(key): FlyWeight
+}
+interface FlyWeight {
+  + operation(state: UnsharedConcreteFlyWeight): void
+}
+class ConcreteFlyWeight1 implements FlyWeight {
+  - key: string
+  ConcreteFlyWeight1(key: string)
+  + operation(state: UnsharedConcreteFlyWeight): void
+}
+class ConcreteFlyWeight2 implements FlyWeight {
+  - key: string
+  ConcreteFlyWeight2(key: string)
+  + operation(state: UnsharedConcreteFlyWeight): void
+}
+class UnsharedConcreteFlyWeight {
+  - info
+  + setInfo(): void
+}
+
+note as N1
+if (!flyWeightList[key]) {
+  flyWeightList[key] =
+    create new FlyWeight
+}
+  
+return flyWeightList[key]
+end note
+
+Client --> FlyWeightFactory
+FlyWeightFactory o-- FlyWeight
+FlyWeightFactory <- N1
+FlyWeight <.. UnsharedConcreteFlyWeight
+note right on link 
+不能共享的部分注入到共享类中
+end note
+Client --> ConcreteFlyWeight1
+Client --> ConcreteFlyWeight2
+
+@enduml

@@ -1,0 +1,24 @@
+@startuml 备忘录
+skinparam classAttributeIconSize 0
+
+class Originator {
+  + setState()
+  + getState()
+  + createMemento()
+  + restoreMemento(Memento: m): void
+}
+class Memento {
+  - state
+  + setState()
+  + getState()
+}
+class CareTaker {
+  ' 管理者
+  - memento: Memento
+  + getMemento()
+  + setMemento(Memento: m): void
+}
+
+Originator --> Memento
+
+@enduml

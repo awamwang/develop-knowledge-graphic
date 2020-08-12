@@ -1,0 +1,24 @@
+@startuml 模板方法
+skinparam classAttributeIconSize 0
+
+abstract class TemplateMethod {
+  {abstract} # method1()
+  {abstract} # method2()
+  # commonMethod()
+
+  + operation()
+}
+class ConcreteTemplateMethod extends TemplateMethod {
+  # method1()
+  # method2()
+}
+note as N1
+operation() {
+  method1()
+  method2()
+  commonMethod()
+}
+end note
+
+TemplateMethod .> N1
+@enduml

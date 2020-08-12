@@ -1,0 +1,43 @@
+@startuml 抽象工厂
+skinparam classAttributeIconSize 0
+
+together {
+  abstract class Factory {
+    +{abstract} createProductGroup1(): ProductGroup1
+    +{abstract} createProductGroup1(): ProductGroup1
+  }
+  class ConcreteFactory1 {
+    +createProductGroup1(): ProductGroup1
+    +createProductGroup1(): ProductGroup1
+  }
+  class ConcreteFactory2 {
+    +createProductGroup1(): ProductGroup1
+    +createProductGroup1(): ProductGroup1
+  }
+}
+together {
+  together {
+    interface ProductGroup1 {}
+    class ConcreteGroup1Product1 {}
+    class ConcreteGroup1Product2 {}
+  }
+
+  together {
+    interface ProductGroup2 {}
+    class ConcreteGroup1Product1 {}
+    class ConcreteGroup1Product2 {}
+  }
+}
+
+ConcreteFactory1 .|> Factory
+Factory <|. ConcreteFactory2
+ProductGroup1 <|.. ConcreteGroup1Product1
+ProductGroup1 <|.. ConcreteGroup1Product2
+ProductGroup2 <|.. ConcreteGroup2Product1
+ProductGroup2 <|.. ConcreteGroup2Product2
+Factory -[hidden]--> ProductGroup1
+Factory -[hidden]--> ProductGroup2
+ProductGroup1 -[hidden]> ProductGroup2
+Factory ..> ProductGroup1
+Factory ..> ProductGroup2
+@enduml

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="292px" preserveAspectRatio="none" style="width:265px;height:292px;" version="1.1" viewBox="0 0 265 292" width="265px" zoomAndPan="magnify"><defs><filter height="300%" id="fnyib3va3p9is" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FEFECE" filter="url(#fnyib3va3p9is)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="10" y="132.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="20" y="155.5889">项目结构</text><rect fill="#FEFECE" filter="url(#fnyib3va3p9is)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="48" x="136" y="20"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="146" y="42.9951">全局</text><path d="M86,150.7422 L96,150.7422 C111,150.7422 111,38.1484 126,38.1484 L136,38.1484 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#fnyib3va3p9is)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="48" x="136" y="76.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="146" y="99.292">模块</text><path d="M86,150.7422 L96,150.7422 C111,150.7422 111,94.4453 126,94.4453 L136,94.4453 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#fnyib3va3p9is)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="136" y="132.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="146" y="155.5889">全局插件</text><path d="M86,150.7422 L96,150.7422 C111,150.7422 111,150.7422 126,150.7422 L136,150.7422 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#fnyib3va3p9is)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="136" y="188.8906"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="146" y="211.8857">模块插件</text><path d="M86,150.7422 L96,150.7422 C111,150.7422 111,207.0391 126,207.0391 L136,207.0391 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#fnyib3va3p9is)" height="36.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="118" x="136" y="245.1875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="98" x="146" y="268.1826">影响全局的模块</text><path d="M86,150.7422 L96,150.7422 C111,150.7422 111,263.3359 126,263.3359 L136,263.3359 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a99e8a232dcdae232e57d1e5362e8654]
+@startmindmap 项目结构
+* 项目结构
+++ 全局
+++ 模块
+++ 全局插件
+++ 模块插件
+++ 影响全局的模块
+@endmindmap
+
+PlantUML version 1.2020.12(Sat Jun 06 10:54:15 UTC 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

@@ -1,0 +1,19 @@
+@startuml 解释器
+skinparam classAttributeIconSize 0
+
+abstract class Expression {
+  + interpret(Context context): void
+}
+class TerminalExpression1 extends Expression {
+  + interpret(Context context): void
+}
+class NoneTerminalExpression2 extends Expression {
+  + interpret(Context context): void
+}
+class Context {
+
+}
+
+Expression <. Context
+Expression ---o NoneTerminalExpression2: 1...n
+@enduml

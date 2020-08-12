@@ -1,0 +1,21 @@
+@startuml 职责链
+skinparam classAttributeIconSize 0
+
+interface Handler {
+  - successor: Handler
+  + setSuccessor(handler: Handler): void
+  + handle(request): void
+}
+class ConcreteHandler1 implements Handler {
+  - successor: Handler
+  + setSuccessor(handler: Handler): void
+  + handle(request): void
+}
+class ConcreteHandler2 implements Handler {
+  - successor: Handler
+  + setSuccessor(handler: Handler): void
+  + handle(request): void
+}
+
+
+@enduml

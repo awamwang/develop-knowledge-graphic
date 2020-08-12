@@ -1,0 +1,22 @@
+@startuml X-Forwarded-For
+  actor "Client" as C
+  note left of C: IP: IP0
+  entity "Proxy1(IP: IP1)" as P1
+  note left of P1: IP: IP1
+  entity "Proxy2(IP: IP2)" as P2
+  note left of P2: IP: IP2
+  entity "Proxy3(IP: IP3)" as P3
+  note left of P3: IP: IP3
+  participant "Server" as S
+
+  C ->> P1: 无X-Forwarded-For\nremote_addr: IP0
+  note right: remote_addr是TCP层参数，不能伪造
+  P1 ->> P2: X-Forwarded-For: P0\nremote_addr: IP1
+  P2 ->> P3: X-Forwarded-For: P0,P1\nremote_addr: IP2
+  note right
+    X-Forwarded-For转发一次，
+    新增一个IP，添加的是请求者的IP
+    (P3为P2转发，添加P2)
+  end note
+  P3 ->> S: X-Forwarded-For: P0,P1,P2\nremote_addr: IP3
+@enduml
