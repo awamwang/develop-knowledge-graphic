@@ -6,11 +6,9 @@ class Factory {
 }
 together {
   interface Product {}
-  class ConcreteProduct1 {}
-  class ConcreteProduct2 {}
+  class ConcreteProduct1 implements Product {}
+  class ConcreteProduct2 implements Product {}
 }
 
-Product <|.. ConcreteProduct1
-Product <|.. ConcreteProduct2
 Factory -> Product
 @enduml

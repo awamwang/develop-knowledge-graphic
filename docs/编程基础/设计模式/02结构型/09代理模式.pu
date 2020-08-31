@@ -4,7 +4,7 @@ skinparam classAttributeIconSize 0
 abstract class Subject {
 
 }
-class ConcreteSubject {
+class ConcreteSubject extends Subject {
   + method()
 }
 class Proxy {
@@ -14,6 +14,5 @@ class Proxy {
 }
 
 Client -> Proxy
-Proxy --|> Subject
-Subject <|-- ConcreteSubject
+Proxy --> Subject
 @enduml

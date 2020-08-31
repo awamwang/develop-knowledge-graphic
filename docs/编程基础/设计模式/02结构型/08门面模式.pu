@@ -27,7 +27,7 @@ class SubSystem3 {
 
 Client .> Facade
 Facade .> N1
-Facade <-- SubSystem1
-Facade <-- SubSystem2
-Facade <-- SubSystem3
+Facade --> SubSystem1
+Facade --> SubSystem2
+Facade --> SubSystem3
 @enduml

@@ -2,9 +2,9 @@
 skinparam classAttributeIconSize 0
 
 interface Target {
-
+  request()
 }
-class Adapter {
+class Adapter implements Target {
   - adaptee
   + request() \n  adaptee.specialRequest
 }
@@ -13,6 +13,5 @@ class Adaptee {
 }
 
 Client -> Target
-Target <|.. Adapter
 Adaptee <-- Adapter
 @enduml

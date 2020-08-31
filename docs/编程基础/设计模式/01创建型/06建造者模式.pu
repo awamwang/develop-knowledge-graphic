@@ -21,6 +21,7 @@ together {
     +show()
   }
   abstract class Builder {
+    #product: Product
     +{abstract} buildPartA(partA): void
     +{abstract} buildPartB(partB): void
     +{abstract} buildPartC(partC): void
@@ -31,7 +32,7 @@ together {
 }
 Director .> Product
 Director .> Builder
-Product <.. Builder
+Product <-- Builder
 ' ConcreteBuilder1 --> ConcreteProduct1
 ' ConcreteBuilder2 --> ConcreteProduct2
 
