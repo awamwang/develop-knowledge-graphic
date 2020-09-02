@@ -37,11 +37,6 @@ function genCategory(tree) {
 
 function genDetailItems(dir, indentation = 0) {
   return dir.content.reduce((prev, sub) => {
-    // name: '网络',
-    // path: 'C:/00awam/Repos/develop-knowledge-graphic/out',
-    // fullname: 'C:/00awam/Repos/develop-knowledge-graphic/out/网络',
-    // isDirectory: true,
-    // content: [ [Object] ]
     let item =
       '  '.repeat(indentation) +
       `+ [${sub.name}](${u.getGitUrl(u.getRelativePath(sub.fullname))})\n`
@@ -49,11 +44,6 @@ function genDetailItems(dir, indentation = 0) {
     if (sub.isDirectory) {
       return prev + item + genDetailItems(sub, indentation + 1)
     } else {
-      console.log(
-        sub.name,
-        sub.name.endsWith('.png'),
-        sub.name.endsWith('.png') ? item : ''
-      )
       return prev + (sub.name.endsWith('.png') ? item : '')
     }
   }, '')
@@ -75,7 +65,6 @@ function genDetails(tree) {
 
 rra.list(outputDir, options).then((tree) => {
   let readme = `# 开发知识\n\n`
-  console.log(tree)
   readme += genCategory(tree)
   readme += '\n'
   readme += genDetails(tree)
