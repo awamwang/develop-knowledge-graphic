@@ -2,7 +2,9 @@
 skinparam classAttributeIconSize 0
 
 class Context {
-  strategy: Strategy
+  - strategy: Strategy
+  setStrategy(strategy: Strategy)
+  getStrategy(): Strategy
   operation(): void
 }
 note as N1
