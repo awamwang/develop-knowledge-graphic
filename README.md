@@ -29,7 +29,7 @@
       + [Graphics Layer](keepgoingwm/develop-knowledge-graphic/tree/master/out/Web开发/前端/css/特性/Graphics Layer)
         + [Graphics Layer.png](keepgoingwm/develop-knowledge-graphic/tree/master/out/Web开发/前端/css/特性/Graphics Layer/Graphics Layer.png)
       + [堆叠上下文](keepgoingwm/develop-knowledge-graphic/tree/master/out/Web开发/前端/css/特性/堆叠上下文)
-        + [堆叠上下文.png](keepgoingwm/develop-knowledge-graphic/tree/master/out/Web开发/前端/css/特性/堆叠上下文/堆叠上下文.png)
+        + [堆叠上下文.png](https://github.com/keepgoingwm/develop-knowledge-graphic/blob/master/out/%E6%95%B4%E4%BD%93/%E7%BC%96%E7%A8%8B.png)
 
 ### 工程
 
