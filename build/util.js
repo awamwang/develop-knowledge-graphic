@@ -18,7 +18,7 @@ class Util {
   }
 
   getGitUrl(relativePath) {
-    return path.join(this.gitBaseUlr, relativePath.replace('\\', '/'))
+    return this.gitBaseUlr + relativePath
   }
 
   getRelativePath(fullPath, basePath) {
