@@ -7,7 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "readme": "node build\readme.js"
   },
   "author": "",
   "license": "MIT",
@@ -23,5 +24,16 @@
   "bugs": {
     "url": "https://github.com/keepgoingwm/develop-knowledge-graphic/issues"
   },
-  "homepage": "https://github.com/keepgoingwm/develop-knowledge-graphic#readme"
+  "homepage": "https://github.com/keepgoingwm/develop-knowledge-graphic#readme",
+  "dependencies": {
+    "recursive-readdir-async": "^1.1.8"
+  },
+  "devDependencies": {
+    "husky": "^4.2.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run readme"
+    }
+  }
 }
