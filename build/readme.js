@@ -2,7 +2,6 @@ const rra = require('recursive-readdir-async')
 const path = require('path')
 const fs = require('fs')
 const util = require('util')
-const { getDefaultSettings } = require('http2')
 const outputDir = path.resolve(__dirname, '../out')
 const u = require('./util')({
   basePath: outputDir

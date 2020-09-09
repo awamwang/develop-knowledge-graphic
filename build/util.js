@@ -14,11 +14,15 @@ class Util {
   }
 
   genHashLink(name) {
-    return `#${name}`
+    return `#${this.encodeGitFormatUrl(name)}`
+  }
+
+  encodeGitFormatUrl(path) {
+    return path.replace(/ /g, '%20')
   }
 
   getGitUrl(relativePath) {
-    return this.gitBaseUlr + relativePath
+    return this.gitBaseUlr + this.encodeGitFormatUrl(relativePath)
   }
 
   getRelativePath(fullPath, basePath) {
