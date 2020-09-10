@@ -6,7 +6,7 @@ setup_git() {
   git config --global user.name "keepgoingwm"
 }
 
-commit_website_files() {
+commit_files() {
   if [ $TRAVIS_EVENT_TYPE != "pull_request" ]; then
     if [ $TRAVIS_BRANCH == "master" ]; then
       echo "Committing to master branch..."
@@ -17,7 +17,6 @@ commit_website_files() {
       elif [ $TRAVIS_EVENT_TYPE == "api" ]; then
         git commit -m "Travis build: $TRAVIS_BUILD_NUMBER [custom]" -m "[skip ci]"
       else
-        git reset coverage/*
         git commit -m "Travis build: $TRAVIS_BUILD_NUMBER" -m "[skip ci]"
       fi
     fi
@@ -41,6 +40,6 @@ npm_publish() {
 }
 
 setup_git
-commit_website_files
+commit_files
 git_push
 # npm_publish

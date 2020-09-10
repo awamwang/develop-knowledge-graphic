@@ -1,6 +1,8 @@
+[![Build Status](https://travis-ci.org/keepgoingwm/develop-knowledge-graphic.svg?branch=master)](https://travis-ci.org/keepgoingwm/develop-knowledge-graphic)
+
 # 开发知识
 
-## 分类
+## Categorys
 
 + [Web开发](#Web开发)
 + [工程](#工程)
@@ -10,7 +12,7 @@
 + [语言](#语言)
 + [项目](#项目)
 
-## 具体内容
+## Details
 
 ### Web开发
 
