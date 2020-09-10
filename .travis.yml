@@ -1,0 +1,30 @@
+sudo: required
+dist: trusty
+language: node_js
+cache:
+  directories:
+    - node_modules
+node_js:
+  - lts/*
+###################
+only:
+  - master
+before_install:
+
+install:
+  - npm i
+
+before_script:
+
+script:
+  - npm run readme
+
+after_success:
+  - chmod +x .travis/push.sh
+  - .travis/push.sh
+
+after_failure:
+  - ls -a
+
+env:
+  global:

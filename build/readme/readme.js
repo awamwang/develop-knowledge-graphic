@@ -2,14 +2,16 @@ const rra = require('recursive-readdir-async')
 const path = require('path')
 const fs = require('fs')
 const util = require('util')
-const outputDir = path.resolve(__dirname, '../out')
-const u = require('./util')({
-  basePath: outputDir
+const inputDir = path.resolve(process.argv[2])
+const contentSuffix = process.argv[3]
+const u = require('../util')({
+  basePath: inputDir
 })
 
 const write = util.promisify(fs.writeFile)
+const read = util.promisify(fs.readFile)
 
-const options = {
+const readdirOptions = {
   mode: rra.TREE,
   recursive: true,
   stats: false,
@@ -25,7 +27,7 @@ const options = {
 }
 
 function genCategory(tree) {
-  let res = `## 分类\n\n`
+  let res = `## Categorys\n\n`
 
   tree.forEach((dir) => {
     res += `+ [${dir.name}](${u.genHashLink(dir.name)})\n`
@@ -43,13 +45,13 @@ function genDetailItems(dir, indentation = 0) {
     if (sub.isDirectory) {
       return prev + item + genDetailItems(sub, indentation + 1)
     } else {
-      return prev + (sub.name.endsWith('.png') ? item : '')
+      return prev + (sub.name.endsWith(contentSuffix) ? item : '')
     }
   }, '')
 }
 
 function genDetails(tree) {
-  let res = `## 具体内容\n\n`
+  let res = `## Details\n\n`
 
   tree.forEach((dir) => {
     res += `### ${dir.name}\n\n`
@@ -62,16 +64,20 @@ function genDetails(tree) {
   return res
 }
 
-rra.list(outputDir, options).then((tree) => {
-  let readme = `# 开发知识\n\n`
-  readme += genCategory(tree)
-  readme += '\n'
-  readme += genDetails(tree)
-
-  // write(path.resolve(__dirname, '.temp\\readmeBody.md'), readme, {
-  //   encoding: 'utf-8'
-  // })
-  write(path.resolve(__dirname, '../README.md'), readme, {
+rra.list(inputDir, readdirOptions).then((tree) => {
+  read(path.resolve(__dirname, './README-header.md'), {
     encoding: 'utf-8'
+  }).then((header) => {
+    let readme = `${header}\n`
+    readme += genCategory(tree)
+    readme += '\n'
+    readme += genDetails(tree)
+
+    // write(path.resolve(__dirname, '.temp\\readmeBody.md'), readme, {
+    //   encoding: 'utf-8'
+    // })
+    write(path.resolve(__dirname, '../../README.md'), readme, {
+      encoding: 'utf-8'
+    })
   })
 })

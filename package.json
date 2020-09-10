@@ -7,9 +7,10 @@
     "doc": "docs"
   },
   "scripts": {
+    "commit": "git-cz",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "readme": "node build/readme.js && git commit -am 'build readme'",
-    "push:force": "cross-env HUSKY_SKIP_HOOKS=1 git push "
+    "readme": "node build/readme/readme.js out .png",
+    "push:force": "cross-env HUSKY_SKIP_HOOKS=1 git push"
   },
   "author": "",
   "license": "MIT",
@@ -26,16 +27,14 @@
     "url": "https://github.com/keepgoingwm/develop-knowledge-graphic/issues"
   },
   "homepage": "https://github.com/keepgoingwm/develop-knowledge-graphic#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "cross-env": "^7.0.2",
     "recursive-readdir-async": "^1.1.8"
   },
-  "devDependencies": {
-    "husky": "^4.2.5"
-  },
-  "husky": {
-    "hooks": {
-      "pre-push": "npm run readme"
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
     }
   }
 }
