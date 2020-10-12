@@ -16,7 +16,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keepgoingwm/develop-knowledge-graphic.git"
+    "url": "git+https://github.com/awamwang/develop-knowledge-graphic.git"
   },
   "keywords": [
     "develop",
@@ -24,9 +24,9 @@
     "graphic"
   ],
   "bugs": {
-    "url": "https://github.com/keepgoingwm/develop-knowledge-graphic/issues"
+    "url": "https://github.com/awamwang/develop-knowledge-graphic/issues"
   },
-  "homepage": "https://github.com/keepgoingwm/develop-knowledge-graphic#readme",
+  "homepage": "https://github.com/awamwang/develop-knowledge-graphic#readme",
   "dependencies": {},
   "devDependencies": {
     "cross-env": "^7.0.2",

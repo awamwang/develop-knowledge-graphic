@@ -4,7 +4,7 @@ const utilDefaultOptions = {}
 
 class Util {
   gitBaseUlr =
-    'https://github.com/keepgoingwm/develop-knowledge-graphic/tree/master/out'
+    'https://github.com/awamwang/develop-knowledge-graphic/tree/master/out'
 
   constructor(
     { gitBaseUlr, basePath } = JSON.parse(JSON.stringify(utilDefaultOptions))
